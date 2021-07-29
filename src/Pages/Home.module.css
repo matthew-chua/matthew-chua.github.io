@@ -1,0 +1,29 @@
+.containerWrapper{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 100vh;
+    
+}
+.container{
+    scroll-snap-align: start;
+    height: 100vh;
+}
+.FAB{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    text-decoration: none;
+    border: none;
+    transition: 0.3s ease;
+}
+.emoji{
+    text-decoration: none;
+    font-size: 2rem;
+}
+.FAB:hover{
+    transform: scale(1.2);
+}

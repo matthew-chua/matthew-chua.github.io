@@ -1,0 +1,54 @@
+.wrapper{
+    
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+}
+.icon{
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+    transition: all 0.3s ease-out;
+
+    
+}
+.label{
+    font-family: "Poiret One";
+    font-size: 2rem;
+}
+.wrapper .button {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    background: rgb(219, 219, 219);
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgba(133, 133, 133, 0.1);
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    text-align: center;
+    line-height: 60px;
+    
+}
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+    font-family: "Poiret One";
+    margin-bottom: 10px;
+  }
+  .wrapper .button:hover{
+    width: 180px;
+    
+  }
+.button:visited{
+    color: black;
+}

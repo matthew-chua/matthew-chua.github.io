@@ -1,0 +1,41 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50vw;
+}
+.rightContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50vw;
+  padding-right: 4.5rem;
+}
+.text {
+  width: 65%;
+  border-radius: 30px;
+  background: #eeeeed;
+  box-shadow: 33px 33px 67px #5a5a5a, -33px -33px 67px #ffffff;
+  padding: 2rem;
+}
+.title {
+  font-family: "Amatic SC";
+  font-size: 8rem;
+  margin: 0;
+}
+.content {
+  font-family: "Poiret One";
+}
+.pic{
+  height: 60%;
+  width: 60%;
+}

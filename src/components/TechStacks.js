@@ -1,26 +1,30 @@
 import React from "react";
 import Stack from "./Stack";
+import mern from "../assets/mern.png"
+import vue from "../assets/vue.png"
+import tw from "../assets/tw.jpg"
+import sol from "../assets/sol.png"
 
 export default function TechStacks() {
   const stacks = [
     {
       name: "MERN",
-      image: "assets/mern.png",
+      image: mern,
       proficiency: 80,
     },
     {
       name: "VueJS",
-      image: "assets/mern.png",
+      image: vue,
       proficiency: 70,
     },
     {
       name: "TailwindCSS",
-      image: "assets/mern.png",
+      image: tw,
       proficiency: 80,
     },
     {
       name: "Solidity",
-      image: "assets/mern.png",
+      image: sol,
       proficiency: 70,
     },
   ];

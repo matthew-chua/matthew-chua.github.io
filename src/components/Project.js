@@ -1,19 +1,22 @@
 import React from "react";
-import MERN from "../assets/mern.png";
 
 export default function Project(props) {
   return (
-    <div className="group w-1/6 rounded-md transition ease-in-out hover:scale-125 duration-300">
+    <div className="group w-1/6 transition  ease-in-out hover:scale-110 duration-300 mr-4">
       <a href={props.link} target="_blank" rel="noreferrer">
-        <div className="flex">
-          <div className="text-white text-[6rem] group-hover:hidden">
+        <div className="flex items-center">
+          <div className="text-white  text-[6rem] group-hover:hidden transition ease-in-out hover:scale-110 duration-300">
             {props.index}
           </div>
-          <div className=" h-32 bg-white mr-8 ">
-            <img src={MERN} alt="mernImage" />
+          <div className="h-24 flex items-center">
+            <img
+              src={props.image}
+              alt="mernImage"
+              className="w-full rounded-md group-hover:rounded-b-none"
+            />
           </div>
         </div>
-        <div className="bg-[#181818] mr-4 hidden group-hover:block text-white text-xs py-4 px-2">
+        <div className="bg-[#181818] w-full h-28 rounded-md mt-4 hidden group-hover:block text-white text-xs py-4 px-2">
           <span className="font-bold">{props.name}</span>
           <br />
           <div className="mt-2">{props.desc}</div>

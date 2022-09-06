@@ -1,34 +1,39 @@
 import React from "react";
 import Project from "./Project";
 
+import Nifty from "../assets/nifty.png";
+import YT from "../assets/yt.png"
+import ST from "../assets/ST.png"
+import datepicker from "../assets/datepicker.png"
+
 export default function Projects() {
   const projects = [
     {
       index: 1,
       name: "NiftyZone",
-      image: "assets/mern.png",
-      link: "https://google.com",
+      image: Nifty,
+      link: "https://market.niftyzone.com/",
       desc: "A NFT marketplace built using NextJS, for artists to mint and sell their artwork.",
     },
     {
       index: 2,
       name: "Summoners' Tavern",
-      image: "assets/mern.png",
-      link: "https://google.com",
+      image: ST,
+      link: "https://github.com/matthew-chua/SummonersTavernWeb",
       desc: "A NFT collection on the Solana blockchain.",
     },
     {
       index: 3,
       name: "Datepicker",
-      image: "assets/mern.png",
-      link: "https://google.com",
+      image: datepicker,
+      link: "https://github.com/matthew-chua/VueDatePicker",
       desc: "A versatile datepicker built with Vue3 and TailwindCSS.",
     },
     {
       index: 4,
       name: "YummyTummy",
-      image: "assets/mern.png",
-      link: "https://google.com",
+      image: YT,
+      link: "https://github.com/matthew-chua/YummyTummy",
       desc: "A restaurant search app that aggregates the location of users to reccomend places to eat.",
     },
   ];

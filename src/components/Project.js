@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Project(props) {
   return (
-    <div className="group w-1/6 transition  ease-in-out hover:scale-110 duration-300 mr-4">
+    <div className="group w-1/6 transition ease-in-out hover:scale-110 duration-300 mr-4">
       <a href={props.link} target="_blank" rel="noreferrer">
         <div className="flex items-center">
-          <div className="text-white  text-[6rem] group-hover:hidden transition ease-in-out hover:scale-110 duration-300">
+          <div className="text-white  text-[6rem] group-hover:hidden transition-property-all ease-in-out duration-300">
             {props.index}
           </div>
           <div className="h-24 flex items-center">

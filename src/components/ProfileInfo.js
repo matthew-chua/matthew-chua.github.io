@@ -9,13 +9,13 @@ export default function ProfileInfo() {
   return (
     <div className="mt-36">
       <div className="text-white text-2xl flex items-center font-bold font-beba">
-        <img src={Icon} alt="m-icon" className="mr-2" /> ORIGINAL
+        <img src={Icon} alt="m-icon" className="mr-2 h-8" /> ORIGINAL
       </div>
       <div className="mt-8 text-7xl text-white font-title">
         Matthew <br /> Chua
       </div>
       <div className="text-white text-xl font-bold mt-4 flex items-center">
-        <img src={Top3} alt="top3" className="mr-2" />
+        <img src={Top3} alt="top3" className="mr-2 h-8" />
         3rd Year CS Undergrad
       </div>
       <div className="text-white mt-4 text-lg">

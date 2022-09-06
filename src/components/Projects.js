@@ -34,12 +34,12 @@ export default function Projects() {
       name: "YummyTummy",
       image: YT,
       link: "https://github.com/matthew-chua/YummyTummy",
-      desc: "A restaurant search app that aggregates the location of users to reccomend places to eat.",
+      desc: "A restaurant search app that aggregates the location of users to recommend places to eat.",
     },
   ];
 
   return (
-    <div className="my-12">
+    <div className="my-12 h-64">
       <div className="text-white text-lg font-bold">Personal Projects</div>
       <div className="flex mt-8">
         {projects.map((project) => (

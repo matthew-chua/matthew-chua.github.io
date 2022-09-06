@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.43a84258.css",
+    "main.js": "/static/js/main.8780053e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bg.gif": "/static/media/bg.68b56ed080aa3811f627.gif",
+    "static/media/nifty.png": "/static/media/nifty.5a7da5bfe6ba1a5cddad.png",
+    "static/media/mern.png": "/static/media/mern.434ec7f0dc75a03d108b.png",
+    "static/media/ST.png": "/static/media/ST.b8dce3e050a863c92b33.png",
+    "static/media/yt.png": "/static/media/yt.8abf6cf9accd72070e54.png",
+    "static/media/datepicker.png": "/static/media/datepicker.09435ff317822a3bc13e.png",
+    "static/media/tw.jpg": "/static/media/tw.833f9b832e5579c28d80.jpg",
+    "static/media/vue.png": "/static/media/vue.8afe6f73d03ec6bd82dd.png",
+    "index.html": "/index.html",
+    "main.43a84258.css.map": "/static/css/main.43a84258.css.map",
+    "main.8780053e.js.map": "/static/js/main.8780053e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43a84258.css",
+    "static/js/main.8780053e.js"
+  ]
+}

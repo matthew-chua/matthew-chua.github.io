@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.abd5a747.css",
-    "main.js": "/static/js/main.b61ab5dd.js",
+    "main.js": "/static/js/main.e816186a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/bg.gif": "/static/media/bg.68b56ed080aa3811f627.gif",
     "static/media/nifty.png": "/static/media/nifty.5a7da5bfe6ba1a5cddad.png",
@@ -9,15 +9,16 @@
     "static/media/ST.png": "/static/media/ST.b8dce3e050a863c92b33.png",
     "static/media/yt.png": "/static/media/yt.8abf6cf9accd72070e54.png",
     "static/media/datepicker.png": "/static/media/datepicker.09435ff317822a3bc13e.png",
+    "static/media/smartrolley.png": "/static/media/smartrolley.db24999a5819556fad38.png",
     "static/media/tw.jpg": "/static/media/tw.833f9b832e5579c28d80.jpg",
     "static/media/vue.png": "/static/media/vue.8afe6f73d03ec6bd82dd.png",
     "index.html": "/index.html",
     "main.abd5a747.css.map": "/static/css/main.abd5a747.css.map",
-    "main.b61ab5dd.js.map": "/static/js/main.b61ab5dd.js.map",
+    "main.e816186a.js.map": "/static/js/main.e816186a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abd5a747.css",
-    "static/js/main.b61ab5dd.js"
+    "static/js/main.e816186a.js"
   ]
 }

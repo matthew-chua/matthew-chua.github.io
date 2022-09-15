@@ -4,6 +4,7 @@ import Project from "./Project";
 import Nifty from "../assets/nifty.png";
 import YT from "../assets/yt.png"
 import ST from "../assets/ST.png"
+import SmartTrolley from "../assets/smartrolley.png"
 import datepicker from "../assets/datepicker.png"
 
 export default function Projects() {
@@ -35,6 +36,13 @@ export default function Projects() {
       image: YT,
       link: "https://github.com/matthew-chua/YummyTummy",
       desc: "A restaurant search app that aggregates the location of users to recommend places to eat.",
+    },
+    {
+      index: 5,
+      name: "Smart",
+      image: SmartTrolley,
+      link: "https://github.com/matthew-chua/REDESIGN",
+      desc: "A digitalised trolley lock system that automates loaning and returning of trolleys.",
     },
   ];
 

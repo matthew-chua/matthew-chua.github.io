@@ -37,7 +37,7 @@ export default function ProfileInfo() {
         </button>
         <button className="bg-[#4D5050] text-white px-4 py-2 rounded-md font-bold ml-4 transition ease-in-out hover:scale-110 duration-300">
           <a
-            href="https://matthew-chua.notion.site/Matthew-Chua-4c44f6dc0fec4410baf9e206c7063b85"
+            href="https://drive.google.com/file/d/10SsyUSfcr12aStJhqgb3JeO_qu3H3wTY/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="flex items-center"
